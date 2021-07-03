@@ -7,7 +7,7 @@ function index() {
   return (
     <div>
       <Header />
-      <Menu />
+      {/* <Menu /> */}
 
       <div className="container">
         <div className="row">
