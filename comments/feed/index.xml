@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for Blazor.Tips	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
+	<description></description>
+	<lastBuildDate>Sun, 20 Dec 2020 09:02:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+	<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Mo		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-19</link>
+
+		<dc:creator><![CDATA[Mo]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2020 10:02:41 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-19</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../blazor-how-to-ready-window-dimensions/index.html#comment-13&quot;&gt;Dale&lt;/a&gt;.
+
+Service IJSRuntime registered inside Blazor as Scoped service, as such it can be used only by Scoped and Transient services.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../blazor-how-to-ready-window-dimensions/index.html#comment-13">Dale</a>.</p>
+<p>Service IJSRuntime registered inside Blazor as Scoped service, as such it can be used only by Scoped and Transient services.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Mo		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-20</link>
+
+		<dc:creator><![CDATA[Mo]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2020 05:09:02 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-20</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../blazor-how-to-ready-window-dimensions/index.html#comment-9&quot;&gt;Sumit Khaitan&lt;/a&gt;.
+
+you need to call `StateHasChanged();` to refresh the UI.
+&lt;code&gt;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await GetDimensions();
+        StateHasChanged();
+    }
+&lt;/code&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../blazor-how-to-ready-window-dimensions/index.html#comment-9">Sumit Khaitan</a>.</p>
+<p>you need to call `StateHasChanged();` to refresh the UI.<br />
+<code><br />
+    protected override async Task OnAfterRenderAsync(bool firstRender)<br />
+    {<br />
+        await GetDimensions();<br />
+        StateHasChanged();<br />
+    }<br />
+</code></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Mo		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-21</link>
+
+		<dc:creator><![CDATA[Mo]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2020 05:09:02 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-21</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../blazor-how-to-ready-window-dimensions/index.html#comment-9&quot;&gt;Sumit Khaitan&lt;/a&gt;.
+
+you need to call `StateHasChanged();` to refresh the UI.
+&lt;code&gt;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await GetDimensions();
+        StateHasChanged();
+    }
+&lt;/code&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../blazor-how-to-ready-window-dimensions/index.html#comment-9">Sumit Khaitan</a>.</p>
+<p>you need to call `StateHasChanged();` to refresh the UI.<br />
+<code><br />
+    protected override async Task OnAfterRenderAsync(bool firstRender)<br />
+    {<br />
+        await GetDimensions();<br />
+        StateHasChanged();<br />
+    }<br />
+</code></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Mo Balzor		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-22</link>
+
+		<dc:creator><![CDATA[Mo Balzor]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2020 04:56:11 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-22</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../blazor-how-to-ready-window-dimensions/index.html#comment-13&quot;&gt;Dale&lt;/a&gt;.
+
+Service IJSRuntime is registered inside Blazor as Scoped service, as such it can be used only by Scoped and Transient services.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../blazor-how-to-ready-window-dimensions/index.html#comment-13">Dale</a>.</p>
+<p>Service IJSRuntime is registered inside Blazor as Scoped service, as such it can be used only by Scoped and Transient services.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Dale		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-13</link>
+
+		<dc:creator><![CDATA[Dale]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2020 00:53:33 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-13</guid>
+
+					<description><![CDATA[shouldnt something like this be registered as a singleton instead of scoped?]]></description>
+			<content:encoded><![CDATA[<p>shouldnt something like this be registered as a singleton instead of scoped?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Dale		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-14</link>
+
+		<dc:creator><![CDATA[Dale]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2020 00:53:33 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-14</guid>
+
+					<description><![CDATA[shouldnt something like this be registered as a singleton instead of scoped?]]></description>
+			<content:encoded><![CDATA[<p>shouldnt something like this be registered as a singleton instead of scoped?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Jean Poulin		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-12</link>
+
+		<dc:creator><![CDATA[Jean Poulin]]></dc:creator>
+		<pubDate>Sat, 17 Oct 2020 15:07:15 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-12</guid>
+
+					<description><![CDATA[With WebAssembly I got the error &quot;Cannot wait on monitors on this runtime&quot;  Wherever I put the function in OnInitializedAsync or OnAfterRender]]></description>
+			<content:encoded><![CDATA[<p>With WebAssembly I got the error &#8220;Cannot wait on monitors on this runtime&#8221;  Wherever I put the function in OnInitializedAsync or OnAfterRender</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by DogLover		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-11</link>
+
+		<dc:creator><![CDATA[DogLover]]></dc:creator>
+		<pubDate>Sun, 27 Sep 2020 17:04:37 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-11</guid>
+
+					<description><![CDATA[Worked immediately! Thanks!]]></description>
+			<content:encoded><![CDATA[<p>Worked immediately! Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by DogLover		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-10</link>
+
+		<dc:creator><![CDATA[DogLover]]></dc:creator>
+		<pubDate>Sun, 27 Sep 2020 12:39:53 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-10</guid>
+
+					<description><![CDATA[Worked immediately! Thanks!]]></description>
+			<content:encoded><![CDATA[<p>Worked immediately! Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to read Window Dimensions in Blazor? by Sumit Khaitan		</title>
+		<link>./../../blazor-how-to-ready-window-dimensions/index.html#comment-9</link>
+
+		<dc:creator><![CDATA[Sumit Khaitan]]></dc:creator>
+		<pubDate>Tue, 16 Jun 2020 13:29:18 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=45#comment-9</guid>
+
+					<description><![CDATA[Is there a way to get the dimensions before the page is loaded?
+I have a table to render which should take up the complete width. But using it extends its parent (which in turn extends its parent and so on) beyond the window size. Only solution that works is when I use fix-width for one of its ancestor, so I think it will be better to set the width of the entire page to browser window.]]></description>
+			<content:encoded><![CDATA[<p>Is there a way to get the dimensions before the page is loaded?<br />
+I have a table to render which should take up the complete width. But using it extends its parent (which in turn extends its parent and so on) beyond the window size. Only solution that works is when I use fix-width for one of its ancestor, so I think it will be better to set the width of the entire page to browser window.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

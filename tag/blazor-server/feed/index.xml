@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>blazor server &#8211; Blazor.Tips</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 24 Sep 2019 11:16:06 +0000</lastBuildDate>
+	<language>en-AU</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8</generator>
+
+<image>
+	<url>/wp-content/uploads/2019/09/cropped-Blazor-logo-32x32.png</url>
+	<title>blazor server &#8211; Blazor.Tips</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>LocalStorage with Blazor</title>
+		<link>./../../../localstorage-with-blazor/index.html</link>
+					<comments>./../../../localstorage-with-blazor/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Mo]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2019 11:02:29 +0000</pubDate>
+				<category><![CDATA[Getting Started]]></category>
+		<category><![CDATA[blazor]]></category>
+		<category><![CDATA[blazor server]]></category>
+		<category><![CDATA[localstorage]]></category>
+		<category><![CDATA[storage]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=36</guid>
+
+					<description><![CDATA[how to read and write to local Storage using Blazor first we create a LocalStorageService.cs file inject the service in Startup.cs Create a new razor component for testing i called it LocalStorage.razor load the app and navigate to /localstorage type Hello World! and hit save refresh the page a click read to get the message [&#8230;]]]></description>
+		
+					<wfw:commentRss>./../../../localstorage-with-blazor/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
